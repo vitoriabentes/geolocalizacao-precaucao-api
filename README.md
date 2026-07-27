@@ -66,10 +66,7 @@ Compile o projeto por meio do Gradle `./gradlew build`. Após a inicialização,
 
 ### 5. Documentação da API
 
-A documentação completa da API, contendo a descrição detalhada de todos os endpoints, campos de requisição e resposta, e códigos de erro, está disponível em: **Documentação da API:** [`Documentação da API`](docs/)
-
-Para testar a aplicação, consulte o documento de contrato da API, que especifica os formatos de requisição e resposta esperados, bem como exemplos práticos de uso.
-
+A documentação completa da API, contendo a descrição detalhada do endpoint, campos de requisição e resposta, e códigos de erro, está disponível em: **Documentação da API:** [`Documentação da API`](docs/documentacao.md)
 
 
 
