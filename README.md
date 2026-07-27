@@ -22,16 +22,12 @@ A API desenvolvida recebe coordenadas geográficas (latitude e longitude) de um 
 ## Fluxograma
 A API foi desenvolvida utilizando uma arquitetura em camadas, na qual cada componente possui responsabilidades bem definidas. Ao receber uma requisição contendo as coordenadas geográficas (latitude e longitude), a aplicação valida os parâmetros informados e consulta o banco de dados para identificar áreas contaminadas localizadas em um raio de até 500 metros. Caso existam registros, são recuperadas as informações da área, seus contaminantes, as medidas de precaução e as medidas de intervenção associadas. Por fim, todos os dados são consolidados e retornados ao cliente em formato JSON.
 
-<p align="center">
-  <img src="docs/images/fluxograma.png" alt="Fluxograma" width="60%">
-</p>
+![Fluxograma](docs/images/fluxograma.png)
 
 ## Modelagem Entidade Relacionamento
 O banco de dados foi modelado para armazenar informações sobre áreas contaminadas do município e seus respectivos relacionamentos com contaminantes, medidas de precaução e medidas de intervenção. A entidade AREA_CONTAMINADA concentra os dados cadastrais e se relaciona, por meio de tabelas associativas, com as demais entidades, permitindo que uma mesma área possua múltiplos contaminantes e diversas recomendações de prevenção e ações de remediação.
 
-<p align="center">
-  <img src="docs/images/modelagem.png" alt="Modelo ER" width="80%">
-</p>
+![Modelagem ER](docs/images/modelagem.png)
 
 
 ## Configuração do Ambiente
