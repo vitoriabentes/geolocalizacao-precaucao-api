@@ -5,8 +5,8 @@
 Retorna todas as áreas contaminadas localizadas dentro de um raio especificado a partir da localização geográfica informada pelo usuário.
 
 | Método | Endpoint |
-|---------|----------|
-| **POST** | `/v1/contaminated-areas-nearby/` |
+|--------|----------|
+| **GET** | `/v1/contaminated-areas-nearby/` |
 
 ---
 
